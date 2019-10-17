@@ -10,20 +10,27 @@ module.exports = {
     const { id } = req.params;
     const user = await User.findByPk(id);
 
-    return res.json(user);
+    if (user) {
+      return res.json(user);
+    } else {
+      return res.json({ Infor: `User with id ${id} does not exist` });
+    }
+
+
   },
   async update(req, res) {
     const { first, last } = req.body;
     const { id } = req.params;
 
-    const user  = await User.update(
-      {first, last},
-      {returning: true, where: {id : id}});
+    let user = await User.findByPk(id);
+    if (user) {
+      user = await User.update({ first, last }, { returning: true, where: { id: id } });
+    } else {
+      return res.json({ Infor: `User with id ${id} does not exist` });
+    }
 
-    console.log(await User.findByPk(id));
+    return res.json(user);
 
-  return res.json(user);
-    
   },
   async store(req, res) {
     const { first, last } = req.body;
@@ -31,12 +38,15 @@ module.exports = {
 
     return res.json(user);
   },
-  
+
   async destroy(req, res) {
     const { id } = req.params;
     const user = await User.findByPk(id);
-    await user.destroy();
-
-    return res.status(204).json();
+    if (user) {
+      await user.destroy();
+      return res.status(204).json();
+    } else {
+      return res.json({ Infor: `User with id ${id} does not exist` });
+    }
   }
 };
