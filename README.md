@@ -1,7 +1,7 @@
 # Avicena Selection
-
+ <p> Seleção desenvolvedor Júnior-AVICENA/FIOCRUZ </p>
 <h1>
-Masterclass - Node.js com Sequelize
+ - Node.js com Sequelize
 </h1>
 
 ## 👨🏼‍💻 Desenvolvedor 
