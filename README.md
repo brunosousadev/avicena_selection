@@ -6,7 +6,7 @@
 
 ## 👨🏼‍💻 Desenvolvedor 
 
-- [Bruno Sousa](https://github.com/brunosousadev)
+- [Bruno Sousa](https://www.linkedin.com/in/brunosousa01/)
 
 
 ## 🚀 Tecnologias
@@ -36,7 +36,7 @@
 ## Mobile
 1. Entre na pasta `cd mobile`;
 2. Rode `yarn` para instalar as dependências;
-3. Se não tiver configurado o emulador ou o seu dispositivo Siga esse tutorial
+3. Se não tiver configurado o emulador ou o seu dispositivo siga esse [TUTORIAL](https://github.com/brunosousadev/ambiente-react-native);
 4. Rode `react-native run-android ou react-native run-ios` comando para instalar e iniciar seu aplicativo no dispositivo 
 
 ## ⚡️ Como contribuir
