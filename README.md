@@ -37,7 +37,8 @@
 1. Entre na pasta `cd mobile`;
 2. Rode `yarn` para instalar as dependências;
 3. Se não tiver configurado o emulador ou o seu dispositivo siga esse [TUTORIAL](https://github.com/brunosousadev/ambiente-react-native);
-4. Rode `react-native run-android ou react-native run-ios` comando para instalar e iniciar seu aplicativo no dispositivo 
+4. Rode `react-native run-android ou react-native run-ios` comando para instalar e iniciar seu aplicativo no dispositivo
+5. Caso o passo 4 não seja o suficiente rode também o comando `react-native start`.
 
 ## ⚡️ Como contribuir
 
