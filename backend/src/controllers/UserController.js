@@ -26,7 +26,7 @@ module.exports = {
     if (user) {
       user = await User.update({ first, last }, { returning: true, where: { id: id } });
     } else {
-      return res.json({ Infor: `User with id ${id} does not exist` });
+      return res.status(204).json({ Infor: `User with id ${id} does not exist` });
     }
 
     return res.json(user);
