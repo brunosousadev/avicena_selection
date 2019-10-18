@@ -19,15 +19,25 @@
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/pt-BR/docs/install)
+- [PostgreSQL](https://www.postgresql.org)
 
-
+## Passos para utilizar 
 1. Faça um clone desse repositório;
 2. Entre na pasta `cd avicena_selection`;
-3. Rode `yarn` para instalar as dependências;
-4. Altere as credencias dentro de `/src/config/database.js`;
-5. Rode `yarn sequelize db:create` para criar o banco de dados;
-6. Rode `yarn sequelize db:migrate` para executar as migrations;
-7. Rode `yarn dev` para iniciar o servidor.
+
+## Backend
+1. Entre na pasta `cd backend`;
+2. Rode `yarn` para instalar as dependências;
+3. Altere as credencias dentro de `/src/config/database.js`;
+4. Rode `yarn sequelize db:create` para criar o banco de dados;
+5. Rode `yarn sequelize db:migrate` para executar as migrations;
+6. Rode `yarn dev` para iniciar o servidor.
+
+## Mobile
+1. Entre na pasta `cd mobile`;
+2. Rode `yarn` para instalar as dependências;
+3. Se não tiver configurado o emulador ou o seu dispositivo Siga esse tutorial
+4. Rode `react-native run-android ou react-native run-ios` comando para instalar e iniciar seu aplicativo no dispositivo 
 
 ## ⚡️ Como contribuir
 
