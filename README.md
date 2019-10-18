@@ -11,8 +11,8 @@
 
 ## 🚀 Tecnologias
 
-- ⚡ Express — A web framework for Node.js
-- 💾 Sequelize — SQL dialect ORM for Node.js
+- ⚡ [Express](https://expressjs.com/pt-br/) — A web framework for Node.js
+- 💾 [Sequelize](https://sequelize.org/) — SQL dialect ORM for Node.js
 
 
 ## ✋🏻 Pré-requisitos
